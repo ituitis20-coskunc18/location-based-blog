@@ -1,0 +1,34 @@
+\documentclass{article}
+\setlength{\parindent}{0pt}
+\usepackage[margin=0.2cm]{geometry}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\begin{document}
+\centering
+\begin{tabular}{|ccccccccc|}
+    \hline
+    \multicolumn{9}{|c|}{\cellcolor[HTML]{FFFE65}\huge \textbf{PROJECT CHARTER}}
+    \\     \hline 
+    \multicolumn{3}{|>{\centering}p{.3\linewidth}|}{\cellcolor[HTML]{FFFE65}\textbf{PROJECT NAME}}
+    & \multicolumn{1}{|>{\centering}p{.1\linewidth}|}{\cellcolor[HTML]{FFFE65}\textbf{DATE}}
+    & \multicolumn{5}{|>{\centering}p{.5\linewidth}|}{\cellcolor[HTML]{FFFE65}\textbf{AREA OF FOCUS}}
+    \\ \hline
+    \multicolumn{3}{|>{\centering}p{.3\linewidth}|}{\large Location Based Blog}
+    & \multicolumn{1}{|>{\centering}p{.1\linewidth}|}{\large 15.10.2021}
+    & \multicolumn{5}{|>{\centering}p{.5\linewidth}|}{\large New Product Development}
+    \\ \hline
+    \multicolumn{3}{|>{\centering}p{.3\linewidth}|}{BUSINESS CASE}
+    & \multicolumn{6}{|>{\centering}p{.6\linewidth}|}{SCOPE}
+    \\ \hline
+    \multicolumn{3}{|>{\centering}p{.3\linewidth}|}{\large Location Based Blog}
+    & \multicolumn{2}{|>{\centering}p{.2\linewidth}|}{\large 15.10.2021}
+    & \multicolumn{2}{|>{\centering}p{.2\linewidth}|}{\large 15.10.2021}
+    & \multicolumn{2}{|>{\centering}p{.2\linewidth}|}{\large 15.10.2021}
+    \\ \hline
+\end{tabular}
+\end{document}
